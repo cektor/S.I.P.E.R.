@@ -70,10 +70,6 @@ A powerful, user-friendly website blocking and productivity application built wi
 ![3](screenshots/3.png)
 
 
-![4](screenshots/4.png)
-
-
-
 ## 🚀 Install & Start
 
 # To install directly on Linux
