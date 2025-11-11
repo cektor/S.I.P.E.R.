@@ -1,309 +1,450 @@
-# S.I.P.E.R. - Site ve İçerik Engelleyici
+# S.I.P.E.R. 🛡️
 
-<div align="center">
-  <img src="siperlo.png" alt="S.I.P.E.R. Logo" width="128" height="128">
-  
-  **Modern ve Kullanıcı Dostu Site Engelleyici**
-  
-  [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-  [![GTK4](https://img.shields.io/badge/GTK-4.0-green.svg)](https://gtk.org)
-  [![Libadwaita](https://img.shields.io/badge/Libadwaita-1.0-purple.svg)](https://gnome.pages.gitlab.gnome.org/libadwaita/)
-  [![Lisans](https://img.shields.io/badge/Lisans-GPL%20v3-red.svg)](LICENSE)
-</div>
+**Sistem İnternet Politikası Uygulama Kuralları**
 
-## 📋 İçindekiler
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GTK 4](https://img.shields.io/badge/GTK-4.0-green.svg)](https://gtk.org/)
+[![Made in Turkey](https://img.shields.io/badge/Made%20in-Turkey%20🇹🇷-red.svg)](https://github.com/cektor/S.I.P.E.R.)
 
-- [Hakkında](#-hakkında)
-- [Özellikler](#-özellikler)
-- [Kurulum](#-kurulum)
-- [Kullanım](#-kullanım)
-- [Yapılandırma](#-yapılandırma)
-- [Ekran Görüntüleri](#-ekran-görüntüleri)
-- [Katkıda Bulunma](#-katkıda-bulunma)
-- [Lisans](#-lisans)
-- [İletişim](#-i̇letişim)
+Modern GTK 4 ve Libadwaita ile geliştirilmiş güçlü, kullanıcı dostu web sitesi engelleme ve verimlilik uygulaması. S.I.P.E.R., Pomodoro odaklanma modu, kapsamlı istatistikler ve çoklu dil desteği gibi gelişmiş özelliklerle dikkat dağıtan web sitelerini engelleyerek odaklanmanızı ve verimliliğinizi korumanıza yardımcı olur.
 
-## 🎯 Hakkında
-
-S.I.P.E.R. (Site ve İçerik Engelleyici), Linux sistemler için geliştirilmiş modern bir site engelleyici uygulamasıdır. GTK4 ve Libadwaita kullanılarak oluşturulan bu uygulama, kullanıcıların dikkatini dağıtan web sitelerini engelleyerek odaklanmalarına yardımcı olur.
-
-### Neden S.I.P.E.R.?
-
-- 🎨 **Modern Arayüz**: GTK4 ve Libadwaita ile native GNOME deneyimi
-- 🚀 **Hızlı ve Hafif**: Minimal kaynak kullanımı
-- 🔒 **Güvenli**: Sistem hosts dosyasını güvenli şekilde yönetir
-- 🌍 **Çok Dilli**: Türkçe ve İngilizce dil desteği
-- 📊 **İstatistikler**: Odaklanma sürelerinizi takip edin
-- ⏰ **Zamanlayıcı**: Pomodoro tekniği ile çalışın
+![S.I.P.E.R. Ekran Görüntüsü](siperlo.png)
 
 ## ✨ Özellikler
 
-### 🔧 Temel Özellikler
-- **Site Engelleme**: Belirli web sitelerini sistem seviyesinde engelleme
-- **Kategori Desteği**: Sosyal medya, oyun, haber gibi kategorilerde toplu engelleme
-- **Zamanlayıcı**: Belirli süre boyunca odaklanma modu
-- **İstatistikler**: Odaklanma sürelerinizi görüntüleme
-- **İçe/Dışa Aktarma**: Site listelerinizi JSON formatında kaydetme/yükleme
+### 🛡️ **Gelişmiş Web Sitesi Engelleme**
+- **Güvenli hosts dosyası yönetimi** otomatik yedekleme ve geri yükleme ile
+- **Gerçek zamanlı engelleme** tarayıcı eklentileri veya ek yazılım olmadan
+- **Toplu kategori engelleme** 12 önceden tanımlanmış kategori ile
+- **Özel site ekleme** akıllı URL ayrıştırma ile
+- **İçe/Dışa aktarma işlevi** engel listelerini paylaşmak için
 
-### 🎨 Arayüz Özellikleri
-- **Modern Tasarım**: GNOME HIG uyumlu arayüz
-- **Karanlık/Açık Tema**: Sistem temasını otomatik takip
-- **Toast Bildirimleri**: Kullanıcı dostu geri bildirimler
-- **Responsive Tasarım**: Farklı ekran boyutlarına uyum
-- **Erişilebilirlik**: Klavye navigasyonu ve ekran okuyucu desteği
+### 🍅 **Pomodoro Odaklanma Modu**
+- **Zamanlı engelleme oturumları** (25, 60, 120 dakika veya özel süre)
+- **Otomatik geri yükleme** odaklanma süresi bittiğinde
+- **Odaklanma istatistikleri takibi** detaylı oturum geçmişi ile
+- **Motivasyonel bildirimler** sizi yolda tutmak için
 
-### 🛡️ Güvenlik Özellikleri
-- **Güvenli Hosts Yönetimi**: Sistem dosyalarını güvenli şekilde düzenleme
-- **Yedekleme**: Otomatik hosts dosyası yedekleme
-- **Geri Alma**: Değişiklikleri kolayca geri alma
-- **İzin Kontrolü**: Gerekli sistem izinlerini kontrol etme
+### 📊 **Kapsamlı İstatistikler**
+- **Toplam odaklanma süresi** tüm oturumlarda takip
+- **Haftalık istatistikler** ilerlemenizi izlemek için
+- **Oturum sayısı** ve süre analizi
+- **Geçmiş veriler** kalıcı depolama ile
 
-## 🚀 Kurulum
+### 🌍 **Çoklu Dil Desteği**
+- **15 dil** Türkçe, İngilizce, Rusça, Almanca, Fransızca, İspanyolca, Japonca, Korece ve Türk dilleri dahil
+- **Dinamik dil değiştirme** yeniden başlatma olmadan
+- **Yerelleştirilmiş arayüz** gerektiğinde uygun RTL desteği ile
+- **Kültürel uyarlama** uygun bayraklar ve bölgesel içerik ile
 
-### Sistem Gereksinimleri
+### 🎨 **Modern Kullanıcı Arayüzü**
+- **GTK 4 + Libadwaita** yerel GNOME entegrasyonu için
+- **Uyarlanabilir tasarım** farklı ekran boyutlarında çalışır
+- **Koyu/Açık/Otomatik tema** sistem entegrasyonu ile destek
+- **Yumuşak animasyonlar** ve modern görsel geri bildirim
+- **Toast bildirimleri** kullanıcı geri bildirimi için
 
-- **İşletim Sistemi**: Linux (Ubuntu 20.04+, Fedora 35+, Arch Linux)
-- **Python**: 3.8 veya üzeri
-- **GTK**: 4.0 veya üzeri
-- **Libadwaita**: 1.0 veya üzeri
+### 🔐 **Güvenlik ve Gizlilik**
+- **PolicyKit entegrasyonu** güvenli yetki yönetimi için
+- **Ağ bağımlılığı yok** - tamamen çevrimdışı çalışır
+- **Yerel veri depolama** bulut senkronizasyonu yok
+- **Şeffaf işlemler** detaylı hata ayıklama günlüğü ile
+- **Güvenli yedekleme sistemi** veri kaybını önlemek için
 
-### Otomatik Kurulum
+## 🚀 Hızlı Başlangıç
+
+### Ön Koşullar
+
+- **Linux** (Ubuntu 20.04+, Fedora 35+, Arch Linux veya herhangi bir modern dağıtım)
+- **Python 3.8+**
+- **GTK 4.0+**
+- **Libadwaita 1.0+**
+- **PolicyKit** (genellikle önceden yüklü)
+
+### Kurulum
+
+#### Seçenek 1: Kaynaktan (Önerilen)
 
 ```bash
 # Depoyu klonlayın
 git clone https://github.com/cektor/S.I.P.E.R.git
-cd S.I.P.E.R
+cd S.I.P.E.R.
 
-# Kurulum scriptini çalıştırın
-chmod +x install.sh
-sudo ./install.sh
-```
+# Python bağımlılıklarını yükleyin
+pip install -r requirements.txt
 
-### Manuel Kurulum
-
-#### Ubuntu/Debian
-
-```bash
-# Gerekli paketleri yükleyin
+# Sistem bağımlılıklarını yükleyin (Ubuntu/Debian)
 sudo apt update
-sudo apt install python3 python3-pip python3-gi python3-gi-cairo gir1.2-gtk-4.0 gir1.2-adw-1
+sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-4.0 gir1.2-adw-1 polkit-1
 
-# Uygulamayı indirin
-git clone https://github.com/cektor/S.I.P.E.R.git
-cd S.I.P.E.R
+# Sistem bağımlılıklarını yükleyin (Fedora)
+sudo dnf install python3-gobject gtk4-devel libadwaita-devel polkit
+
+# Sistem bağımlılıklarını yükleyin (Arch Linux)
+sudo pacman -S python-gobject gtk4 libadwaita polkit
 
 # Uygulamayı çalıştırın
 python3 siper.py
 ```
 
-#### Fedora
+#### Seçenek 2: Sistem Kurulumu
 
 ```bash
-# Gerekli paketleri yükleyin
-sudo dnf install python3 python3-pip python3-gobject gtk4-devel libadwaita-devel
+# Uygulama dosyalarını kopyalayın
+sudo cp siper.py /usr/local/bin/siper
+sudo chmod +x /usr/local/bin/siper
 
-# Uygulamayı indirin
-git clone https://github.com/cektor/S.I.P.E.R.git
-cd S.I.P.E.R
+# Dil dosyalarını kopyalayın
+sudo mkdir -p /usr/share/siper/languages/
+sudo cp -r languages/* /usr/share/siper/languages/
 
-# Uygulamayı çalıştırın
-python3 siper.py
+# İkonu kopyalayın
+sudo cp siperlo.png /usr/share/pixmaps/
+
+# Masaüstü girişi oluşturun
+cat > ~/.local/share/applications/siper.desktop << EOF
+[Desktop Entry]
+Name=S.I.P.E.R.
+Comment=Sistem İnternet Politikası Uygulama Kuralları
+Exec=/usr/local/bin/siper
+Icon=siperlo
+Terminal=false
+Type=Application
+Categories=Utility;Network;
+Keywords=website;blocker;productivity;focus;
+EOF
+
+# Masaüstü veritabanını güncelleyin
+update-desktop-database ~/.local/share/applications/
 ```
-
-#### Arch Linux
-
-```bash
-# Gerekli paketleri yükleyin
-sudo pacman -S python python-pip python-gobject gtk4 libadwaita
-
-# Uygulamayı indirin
-git clone https://github.com/cektor/S.I.P.E.R.git
-cd S.I.P.E.R
-
-# Uygulamayı çalıştırın
-python3 siper.py
-```
-
-## 📖 Kullanım
 
 ### İlk Çalıştırma
 
-1. Uygulamayı başlatın:
-   ```bash
-   python3 siper.py
-   ```
+1. **S.I.P.E.R.'i başlatın** uygulama menünüzden veya `python3 siper.py` komutunu çalıştırın
+2. **Web sitelerini ekleyin** URL giriş alanını kullanarak engellemek için
+3. **Hızlı kategorileri seçin** genişletilebilir menüden (Sosyal, Video, Oyun, vb.)
+4. **Engellemeyi etkinleştirin** geçiş düğmesini kullanarak
+5. **Odaklanma modunu başlatın** zamanlı verimlilik oturumları için
 
-2. İlk çalıştırmada uygulama gerekli yapılandırma dosyalarını oluşturacaktır.
+## 📖 Kullanım Kılavuzu
 
-3. Sistem hosts dosyasını düzenlemek için sudo yetkisi gerekebilir.
+### Temel Web Sitesi Engelleme
 
-### Temel Kullanım
+1. **Bireysel Siteleri Ekleyin:**
+   - Giriş alanına bir web sitesi URL'si girin (örn. `facebook.com`)
+   - "Ekle"ye tıklayın veya Enter'a basın
+   - Site engel listenize eklenecektir
 
-#### Site Ekleme
-1. Ana ekranda "Site Ekle" butonuna tıklayın
-2. Engellemek istediğiniz site adresini girin (örn: facebook.com)
-3. "Ekle" butonuna tıklayın
+2. **Hızlı Kategorileri Kullanın:**
+   - Kategori menüsünü genişletmek için "Hızlı İşlemler"e tıklayın
+   - 12 önceden tanımlanmış kategoriden seçin:
+     - 📱 **Sosyal Medya**: Facebook, Twitter, Instagram, TikTok, vb.
+     - 🎥 **Video**: YouTube, Netflix, Twitch, vb.
+     - 📰 **Haber**: CNN, BBC, yerel haber siteleri
+     - 🎮 **Oyun**: Steam, Epic Games, oyun platformları
+     - 🛍️ **Alışveriş**: Amazon, eBay, e-ticaret siteleri
+     - 🔞 **Yetişkin**: Yetişkin içerik web siteleri
+     - ₿ **Kripto**: Kripto para borsaları ve ticaret platformları
+     - 🌍 **Torrent**: BitTorrent ve dosya paylaşım siteleri
+     - 📚 **Eğitim**: Çevrimiçi öğrenme platformları
+     - 💼 **İş**: Profesyonel ağ ve iş siteleri
+     - 🎵 **Müzik**: Yayın ve müzik platformları
+     - 🏃 **Spor**: Spor haberleri ve yayın siteleri
 
-#### Kategori Ekleme
-1. "Kategori Ekle" menüsünden istediğiniz kategoriyi seçin:
-   - 📱 Sosyal Medya
-   - 🎮 Oyun Siteleri
-   - 📰 Haber Siteleri
-   - 🛒 Alışveriş Siteleri
-   - 📺 Video Platformları
+3. **Engellemeyi Etkinleştir/Devre Dışı Bırak:**
+   - Tüm engelleri etkinleştirmek veya devre dışı bırakmak için ana geçiş düğmesini kullanın
+   - Etkinleştirildiğinde, listenizdeki tüm siteler sistem genelinde engellenecektir
+   - Devre dışı bırakıldığında, tüm siteler tekrar erişilebilir hale gelir
 
-#### Zamanlayıcı Kullanımı
-1. "Odaklanma Başlat" butonuna tıklayın
-2. Süreyi dakika cinsinden girin
-3. Zamanlayıcı çalışırken tüm engellenen siteler erişilemez olacaktır
+### Odaklanma Modu (Pomodoro Tekniği)
 
-#### İstatistikleri Görüntüleme
-1. Menüden "İstatistikler" seçeneğini tıklayın
-2. Toplam odaklanma sürenizi ve haftalık istatistiklerinizi görün
+1. **Hızlı Odaklanma Oturumları:**
+   - Önceden ayarlanmış süreler için 25dk, 60dk veya 120dk düğmelerine tıklayın
+   - Engelleme seçilen süre için otomatik olarak etkinleşecektir
+   - Oturum bittiğinde bir bildirim görünecektir
+
+2. **Özel Odaklanma Oturumları:**
+   - Metin alanına dakika cinsinden özel bir süre girin
+   - Başlatmak için oynat düğmesine (▶) tıklayın
+   - Kişiselleştirilmiş verimlilik programları için mükemmel
+
+3. **Odaklanma İstatistikleri:**
+   - İlerlemenizi görmek için istatistik düğmesine (📊) tıklayın
+   - Toplam odaklanma süresi, haftalık istatistikler ve oturum sayısını görün
+   - Zaman içindeki verimlilik gelişimlerinizi takip edin
 
 ### Gelişmiş Özellikler
 
-#### İçe/Dışa Aktarma
-```bash
-# Site listesini dışa aktarma
-Menü → Dışa Aktar → blocked_sites.json
+#### Engel Listelerini İçe/Dışa Aktarma
 
-# Site listesini içe aktarma
-Menü → İçe Aktar → JSON dosyasını seçin
-```
+- **Dışa Aktarma:** Menü → Dışa Aktar → Engel listenizi JSON olarak kaydedin
+- **İçe Aktarma:** Menü → İçe Aktar → Önceden kaydedilmiş bir engel listesi yükleyin
+- Cihazlar arasında veya takım üyeleriyle konfigürasyonları paylaşın
 
-#### Komut Satırı Seçenekleri
-```bash
-# Yardım mesajını görüntüle
-python3 siper.py --help
+#### Çoklu Dil Desteği
 
-# Sürüm bilgisini göster
-python3 siper.py --version
+- Başlıktaki dil düğmesine (🇹🇷 TR) tıklayın
+- 15 mevcut dilden birini seçin
+- Arayüz yeni dille yeniden başlayacaktır
 
-# Debug modunda çalıştır
-python3 siper.py --debug
-```
+#### Tema Özelleştirme
 
-## ⚙️ Yapılandırma
+- Tema düğmesine (☀️/🌙/⚙️) tıklayarak şunlar arasında geçiş yapın:
+  - **Açık Tema**: Parlak, temiz arayüz
+  - **Koyu Tema**: Düşük ışık ortamları için gözleri yormayan
+  - **Otomatik Tema**: Sistem tercihinizi takip eder
 
-### Yapılandırma Dosyaları
+#### İstatistikler ve Analitik
 
-Uygulama yapılandırma dosyalarını `~/.config/siper/` dizininde saklar:
+- **Toplam Süre**: Tüm oturumlardaki kümülatif odaklanma süresi
+- **Bu Hafta**: Mevcut hafta için odaklanma süresi
+- **Oturum Sayısı**: Tamamlanan odaklanma oturumu sayısı
+- **Geçmiş Veriler**: Verimlilik yolculuğunuzun kalıcı takibi
+
+## 🔧 Konfigürasyon
+
+### Konfigürasyon Dosyaları
+
+S.I.P.E.R. konfigürasyonunu `~/.config/siper/` dizininde saklar:
 
 ```
 ~/.config/siper/
-├── config.json          # Ana yapılandırma
-├── blocked_sites.json   # Engellenen siteler
-├── focus_history.json   # Odaklanma geçmişi
-└── hosts_backup        # Hosts dosyası yedeği
+├── config.json          # Ana konfigürasyon
+├── stats.json           # Odaklanma istatistikleri
+├── debug.log           # Hata ayıklama bilgileri
+├── hosts_backup        # Orijinal hosts dosyasının yedeği
+└── languages/          # Dil dosyaları (ilk çalıştırmada kopyalanır)
+    ├── english.ini
+    ├── turkish.ini
+    └── ...
 ```
 
-### config.json Yapısı
+### Konfigürasyon Seçenekleri
+
+`config.json` dosyası şunları içerir:
 
 ```json
 {
-  "language": "tr",
-  "theme": "auto",
-  "blocked_sites": [],
-  "focus_history": [],
-  "auto_backup": true,
-  "notification_sound": true
+  "blocked_sites": ["facebook.com", "youtube.com"],
+  "is_active": false,
+  "theme_mode": "auto",
+  "language": "turkish"
 }
 ```
 
-### Dil Değiştirme
+### Özel Dil Dosyaları
 
-Dil ayarını değiştirmek için:
+`languages/` dizininden mevcut bir `.ini` dosyasını kopyalayarak ve değerleri çevirerek özel dil dosyaları oluşturabilirsiniz. Dosya yapısı standart INI formatını takip eder:
 
-1. `~/.config/siper/config.json` dosyasını açın
-2. `"language"` değerini `"tr"` (Türkçe) veya `"en"` (İngilizce) olarak değiştirin
-3. Uygulamayı yeniden başlatın
+```ini
+[GENERAL]
+app_name = S.I.P.E.R.
+app_subtitle = Sistem İnternet Politikası Uygulama Kuralları
 
-## 📸 Ekran Görüntüleri
+[WINDOW]
+title = S.I.P.E.R.
+add_site_group = Yeni Site Ekle
+# ... daha fazla çeviri
+```
 
-### Ana Ekran
-![Ana Ekran](screenshots/main_window.png)
+## 🛠️ Teknik Detaylar
 
-### Site Ekleme
-![Site Ekleme](screenshots/add_site.png)
+### Mimari
 
-### Zamanlayıcı
-![Zamanlayıcı](screenshots/timer.png)
+S.I.P.E.R. modern, modüler bir mimari ile geliştirilmiştir:
 
-### İstatistikler
-![İstatistikler](screenshots/statistics.png)
+- **Ön Yüz**: Yerel Linux entegrasyonu için GTK 4 + Libadwaita
+- **Arka Yüz**: Engelleyici olmayan işlemler için threading ile Python 3
+- **Güvenlik**: Güvenli yetki yükseltme için PolicyKit (pkexec)
+- **Depolama**: Atomik yazımlar ile JSON tabanlı konfigürasyon
+- **Günlükleme**: Dosya ve konsol çıktısı ile kapsamlı hata ayıklama sistemi
+
+### Nasıl Çalışır
+
+1. **Hosts Dosyası Yönetimi**: S.I.P.E.R. engellenmiş web sitelerini `127.0.0.1` (localhost) adresine yönlendirmek için sistemin `/etc/hosts` dosyasını değiştirir
+2. **Güvenli İşlemler**: Tüm sistem seviyesi değişiklikler PolicyKit aracılığıyla kullanıcı kimlik doğrulaması gerektirir
+3. **Yedekleme Sistemi**: Orijinal hosts dosyası herhangi bir değişiklikten önce otomatik olarak yedeklenir
+4. **Gerçek Zamanlı Güncellemeler**: Değişiklikler tarayıcı yeniden başlatması gerektirmeden hemen etkili olur
+
+### Güvenlik Değerlendirmeleri
+
+- **Yetki Yükseltme**: Yalnızca kullanıcı eylemleri tarafından açıkça istendiğinde gerçekleşir
+- **Yedekleme Güvenliği**: Orijinal hosts dosyası her zaman korunur
+- **Atomik İşlemler**: Dosya değişiklikleri bozulmayı önlemek için atomiktir
+- **Kullanıcı Kontrolü**: Tüm işlemler kullanıcı tarafından geri alınabilir
+
+### Performans
+
+- **Hafif**: Verimli GTK 4 render ile minimal kaynak kullanımı
+- **Hızlı Başlangıç**: Optimize edilmiş başlatma ve konfigürasyon yükleme
+- **Duyarlı UI**: Uygun threading ile engelleyici olmayan işlemler
+- **Bellek Verimli**: Çöp toplama ile akıllı bellek yönetimi
+
+## 🐛 Sorun Giderme
+
+### Yaygın Sorunlar
+
+#### "İzin Reddedildi" Hataları
+```bash
+# PolicyKit'in yüklü ve çalışır durumda olduğundan emin olun
+sudo systemctl status polkit
+
+# pkexec'in mevcut olup olmadığını kontrol edin
+which pkexec
+```
+
+#### GTK/Libadwaita Bulunamadı
+```bash
+# Ubuntu/Debian
+sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-4.0 gir1.2-adw-1
+
+# Fedora
+sudo dnf install python3-gobject gtk4-devel libadwaita-devel
+
+# Arch Linux
+sudo pacman -S python-gobject gtk4 libadwaita
+```
+
+#### Uygulama Başlamıyor
+```bash
+# Python sürümünü kontrol edin (3.8+ gerekli)
+python3 --version
+
+# Bağımlılıkları yükleyin
+pip install -r requirements.txt
+
+# Hata ayıklama çıktısı ile çalıştırın
+python3 siper.py --debug
+```
+
+#### Hosts Dosyası Sorunları
+```bash
+# Hosts dosyası izinlerini kontrol edin
+ls -la /etc/hosts
+
+# Gerekirse hosts dosyasını manuel olarak geri yükleyin
+sudo cp ~/.config/siper/hosts_backup /etc/hosts
+```
+
+### Hata Ayıklama Modu
+
+Sorun giderme için S.I.P.E.R.'i hata ayıklama çıktısı ile çalıştırın:
+
+```bash
+python3 siper.py --debug
+```
+
+Bu, hem terminalde hem de `~/.config/siper/debug.log` dosyasında detaylı günlük bilgileri sağlayacaktır.
+
+### Yardım Alma
+
+- **Günlükleri kontrol edin**: `~/.config/siper/debug.log` detaylı işlem bilgileri içerir
+- **GitHub Sorunları**: [https://github.com/cektor/S.I.P.E.R./issues](https://github.com/cektor/S.I.P.E.R./issues) adresinde hata bildirin
+- **Tartışmalar**: GitHub'da topluluk tartışmalarına katılın
 
 ## 🤝 Katkıda Bulunma
 
-S.I.P.E.R. projesine katkıda bulunmak isterseniz:
+Topluluktan gelen katkıları memnuniyetle karşılıyoruz! İşte nasıl yardımcı olabileceğiniz:
 
-1. **Fork** edin
-2. **Feature branch** oluşturun (`git checkout -b feature/AmazingFeature`)
-3. Değişikliklerinizi **commit** edin (`git commit -m 'Add some AmazingFeature'`)
-4. Branch'inizi **push** edin (`git push origin feature/AmazingFeature`)
-5. **Pull Request** açın
-
-### Geliştirme Ortamı Kurulumu
+### Geliştirme Kurulumu
 
 ```bash
+# Depoyu fork edin ve klonlayın
+git clone https://github.com/kullaniciadi/S.I.P.E.R.git
+cd S.I.P.E.R.
+
+# Sanal ortam oluşturun
+python3 -m venv venv
+source venv/bin/activate
+
 # Geliştirme bağımlılıklarını yükleyin
-pip3 install -r requirements-dev.txt
+pip install -r requirements.txt
 
-# Pre-commit hook'larını kurun
+# Pre-commit hook'larını yükleyin (isteğe bağlı)
+pip install pre-commit
 pre-commit install
-
-# Testleri çalıştırın
-python3 -m pytest tests/
 ```
 
-### Kod Standartları
+### Katkıda Bulunma Yolları
 
-- **PEP 8** Python kod standardını takip edin
-- **Type hints** kullanın
-- **Docstring** ekleyin
-- **Unit test** yazın
+1. **🐛 Hata Raporları**: Detaylı yeniden üretme adımları ile sorunları bildirin
+2. **💡 Özellik İstekleri**: Yeni özellikler veya iyileştirmeler önerin
+3. **🌍 Çeviriler**: Yeni diller için destek ekleyin
+4. **📝 Dokümantasyon**: Dokümantasyon ve örnekleri geliştirin
+5. **💻 Kod**: Hata düzeltmeleri veya yeni özellikler için pull request gönderin
+6. **🎨 Tasarım**: UI/UX iyileştirilerine katkıda bulunun
+7. **🧪 Test**: Yeni özellikleri test etmeye yardımcı olun ve geri bildirim verin
 
-## 🐛 Hata Bildirimi
+### Çeviri Kılavuzları
 
-Hata bulduğunuzda lütfen [GitHub Issues](https://github.com/cektor/S.I.P.E.R./issues) sayfasından bildirin.
+Yeni bir dil eklemek için:
 
-Hata bildirirken şunları ekleyin:
-- İşletim sistemi bilgisi
-- Python sürümü
-- Hata mesajı
-- Hatayı tekrarlama adımları
+1. `languages/english.ini` dosyasını `languages/diliniz.ini` olarak kopyalayın
+2. Tüm değerleri çevirin (anahtarları değiştirmeden bırakın)
+3. Uygun bayrak emoji ve dil kodu ekleyin
+4. Çeviriyi uygulamada test edin
+5. Bir pull request gönderin
 
-## 📝 Lisans
+### Kod Stili
 
-Bu proje [GPL v3](LICENSE) lisansı altında lisanslanmıştır.
+- Python kodu için PEP 8'i takip edin
+- Anlamlı değişken ve fonksiyon isimleri kullanın
+- Genel fonksiyonlar için docstring ekleyin
+- Uygun yerlerde tip ipuçları dahil edin
+- Yeni özellikler için birim testleri yazın
+
+## 📄 Lisans
+
+S.I.P.E.R. **GNU Genel Kamu Lisansı v3.0** altında lisanslanmıştır.
 
 ```
-S.I.P.E.R. - Site ve İçerik Engelleyici
-Copyright (C) 2024 Fatih ÖNDER (CekToR)
+S.I.P.E.R. - Sistem İnternet Politikası Uygulama Kuralları
+Telif Hakkı (C) 2025 ALG Yazılım A.Ş.
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+Bu program özgür yazılımdır: Free Software Foundation tarafından
+yayınlanan GNU Genel Kamu Lisansı'nın 3. sürümü veya (tercihinize
+bağlı olarak) daha sonraki bir sürümü altında yeniden dağıtabilir
+ve/veya değiştirebilirsiniz.
+
+Bu program faydalı olacağı umuduyla dağıtılmaktadır, ancak
+HİÇBİR GARANTİ YOKTUR; hatta SATILABİLİRLİK veya BELİRLİ BİR
+AMACA UYGUNLUK için zımni garanti bile yoktur. Daha fazla ayrıntı
+için GNU Genel Kamu Lisansı'na bakın.
+
+Bu programla birlikte GNU Genel Kamu Lisansı'nın bir kopyasını
+almış olmalısınız. Almadıysanız, <https://www.gnu.org/licenses/>
+adresine bakın.
 ```
 
-## 📞 İletişim
+## 👨💻 Yazar ve Krediler
 
-**Geliştirici**: Fatih ÖNDER (CekToR) 🇹🇷
+### Baş Geliştirici
+**Fatih ÖNDER (CekToR)** 🇹🇷
+- GitHub: [@cektor](https://github.com/cektor)
+- Şirket: ALG Yazılım A.Ş.
 
-- **GitHub**: [@cektor](https://github.com/cektor)
-- **E-posta**: [fatih@onder.web.tr](mailto:fatih@onder.web.tr)
-- **Web**: [https://onder.web.tr](https://onder.web.tr)
+### Kullanılan Teknolojiler
+- **GTK 4**: Modern kullanıcı arayüzü çerçevesi
+- **Libadwaita**: GNOME tasarım dili ve bileşenleri
+- **Python 3**: Ana programlama dili
+- **PolicyKit**: Güvenli yetki yönetim sistemi
 
-## 🙏 Teşekkürler
+### Teşekkürler
+- GTK 4 ve Libadwaita için GNOME Projesi
+- Python Yazılım Vakfı
+- İlham ve geri bildirim için açık kaynak topluluğu
+- Tüm katkıda bulunanlar ve çevirmenler
 
-- **GNOME Projesi** - GTK4 ve Libadwaita için
-- **Python Topluluğu** - Harika Python ekosistemi için
-- **Açık Kaynak Topluluğu** - İlham ve destek için
+## 🔗 Bağlantılar
+
+- **Ana Sayfa**: [https://github.com/cektor/S.I.P.E.R.](https://github.com/cektor/S.I.P.E.R.)
+- **Sorunlar**: [https://github.com/cektor/S.I.P.E.R./issues](https://github.com/cektor/S.I.P.E.R./issues)
+- **Sürümler**: [https://github.com/cektor/S.I.P.E.R./releases](https://github.com/cektor/S.I.P.E.R./releases)
+- **Lisans**: [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ---
 
-<div align="center">
-  <p>⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!</p>
-  <p>Made with ❤️ in Turkey 🇹🇷</p>
-</div>
+**Türkiye'de ❤️ ile yapıldı 🇹🇷**
+
+*S.I.P.E.R. - Dijital yaşamınızın kontrolünü ele alın, bir seferde bir engellenmiş site.*
