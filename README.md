@@ -1,11 +1,14 @@
-# S.I.P.E.R. 🛡️
+<a href="#">
+    <img src="https://raw.githubusercontent.com/pedromxavier/flag-badges/main/badges/TR.svg" alt="made in TR">
+</a>
+
+# S.I.P.E.R.
 
 **System Internet Policy Enforcement Ruleset**
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![GTK 4](https://img.shields.io/badge/GTK-4.0-green.svg)](https://gtk.org/)
-[![Made in Turkey](https://img.shields.io/badge/Made%20in-Turkey%20🇹🇷-red.svg)](https://github.com/cektor/S.I.P.E.R.)
 
 A powerful, user-friendly website blocking and productivity application built with modern GTK 4 and Libadwaita. S.I.P.E.R. helps you maintain focus and productivity by blocking distracting websites with advanced features like Pomodoro focus mode, comprehensive statistics, and multi-language support.
 
@@ -52,7 +55,35 @@ A powerful, user-friendly website blocking and productivity application built wi
 - **Transparent operations** with detailed debug logging
 - **Safe backup system** to prevent data loss
 
-## 🚀 Quick Start
+
+## 📸 Screenshots
+
+<div align="left">
+
+
+![1](screenshots/1.png)
+
+
+![2](screenshots/2.png)
+
+
+![3](screenshots/3.png)
+
+
+![4](screenshots/4.png)
+
+
+
+## 🚀 Install & Start
+
+# To install directly on Linux
+
+
+Linux (based debian) Terminal: Linux (debian based distributions) To install directly from Terminal.
+```bash
+wget -O Setup_Linux64.deb https://github.com/cektor/S.I.P.E.R./releases/download/1.0.0/Setup_Linux64.deb && sudo apt install ./Setup_Linux64.deb && sudo apt-get install -f -y
+```
+
 
 ### Prerequisites
 
