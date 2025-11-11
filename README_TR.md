@@ -2,6 +2,8 @@
     <img src="https://raw.githubusercontent.com/pedromxavier/flag-badges/main/badges/TR.svg" alt="made in TR">
 </a>
 
+## [English Guide](https://github.com/cektor/S.I.P.E.R.//blob/main/README.md)
+
 # S.I.P.E.R.
 
 **Sistem İnternet Politikası Uygulama Kuralları**
@@ -60,13 +62,13 @@ Modern GTK 4 ve Libadwaita ile geliştirilmiş güçlü, kullanıcı dostu web s
 <div align="left">
 
 
-![1](screenshots/1.png)
+![1](screenshots/1t.png)
 
 
-![2](screenshots/2.png)
+![2](screenshots/2t.png)
 
 
-![3](screenshots/3.png)
+![3](screenshots/3t.png)
 
 
 ## 🚀 Yükleme & Hızlı Başlangıç
